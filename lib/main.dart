@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'UI/Home.dart';
+import 'ui/Home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Yasir Romaya',
       debugShowCheckedModeBanner: false,
       home: Home(),
