@@ -18,18 +18,36 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+
+   <!-- Primary Meta Tags -->
+  <title>Yasir Romaya - Mobile Applications Develloper</title>
+  <meta name="title" content="Yasir Romaya - Mobile Applications Develloper">
+  <meta name="description" content="Check out my potrtfolio">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yasirromaya.me">
+  <meta property="og:title" content="Yasir Romaya - Mobile Applications Develloper">
+  <meta property="og:description" content="Check out my potrtfolio">
+  <meta property="og:image" content="https://yasirromaya.me/cover.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://yasirromaya.me">
+  <meta property="twitter:title" content="Yasir Romaya - Mobile Applications Develloper">
+  <meta property="twitter:description" content="Check out my potrtfolio">
+  <meta property="twitter:image" content="https://yasirromaya.me/cover.jpg">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="dx_portfolio">
+  <meta name="apple-mobile-web-app-title" content="Yasir Romaya - Mobile Applications Develloper">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>dx_portfolio</title>
+  <title>Yasir Romaya - Mobile Applications Develloper</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
@@ -38,8 +56,94 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <style>
+    .lds-ripple {
+      display: inline-block;
+      position: relative;
+      width: 80px;
+      height: 80px;
+    }
+
+    .lds-ripple div {
+      background-color: #41FBDA;
+      position: absolute;
+      border: 4px solid #29a48d;
+      opacity: 1;
+      border-radius: 50%;
+      animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+    .lds-ripple div:nth-child(2) {
+      animation-delay: -0.5s;
+    }
+
+    @keyframes lds-ripple {
+      0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+      }
+
+      100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+      }
+    }
+
+    .container {
+      height: 100%;
+    }
+
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    
+  </style>
+
+
+
 </head>
-<body>
+<body style="background-color:#0A192F;">
+
+  <div class="container">
+    <div class="center">
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+  <!-- Firebase Configuration -->
+  <script>
+   var firebaseConfig = {
+       apiKey: "AIzaSyCA1PE49lNKRUFE45X5fyzunTuYKLkDKtk",
+       authDomain: "portfolio-ef135.firebaseapp.com",
+       projectId: "portfolio-ef135",
+       storageBucket: "portfolio-ef135.appspot.com",
+       messagingSenderId: "241290492676",
+       appId: "1:241290492676:web:88434fafca8e5b9bfeae51",
+       measurementId: "G-FXC4JXT1GZ"
+   };
+
+   // Initialize Firebase
+   firebase.initializeApp(firebaseConfig);
+ </script>
+
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
