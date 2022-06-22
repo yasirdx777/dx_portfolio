@@ -81,14 +81,21 @@ class About extends StatelessWidget {
                   children: const [
                     CustomText(
                       text:
-                          "Hello! I'm Yasir, A mobile application developer based in Suli, IQ.\n\nI enjoy creating things that live on the internet, whether that be applications, open source packages. My goal is to always build products that provide pixel-perfect, performant experiences.\n\n",
+                          "I have over five years of experience working in mobile application development. Currently, I work as the lead mobile application developer at iQ Group, where I lead a team of four developers, building unique applications that help people manage their internet subscriptions; I'm deeply passionate about creating trusted applications that make people's life easier and more efficient.\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Shortly currently, I am a lead mobile dev at iQ Group tech company, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects.\n\n",
+                          "Previously, I worked at XBand startup as an iOS apps developer, building and contributing to +3 iOS applications that provide customers with medical and food delivery services.\n\n",
+                      textsize: 16.0,
+                      color: Color(0xff828DAA),
+                      letterSpacing: 0.75,
+                    ),
+                    CustomText(
+                      text:
+                          "If you catch me outside of work, I love to hang out in nature and do photography - and an avid lover of football and swimming.\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,

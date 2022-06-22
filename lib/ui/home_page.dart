@@ -138,7 +138,7 @@ class _HomePageState extends State<HomePage> {
                       child: InkWell(
                         onTap: () {
                           method.launchURL(
-                              "https://drive.google.com/file/d/17PVvdo9maS8OwwquSGePOVN3oohjMZW3/view");
+                              "https://drive.google.com/file/d/1-WfeNXf_7x0CnoEkUW_IfNUJwrvSJKME/view?usp=sharing");
                         },
                         hoverColor: const Color(0xff64FFDA).withOpacity(0.2),
                         borderRadius: BorderRadius.circular(4.0),
