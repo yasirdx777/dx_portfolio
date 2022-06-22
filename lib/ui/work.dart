@@ -86,6 +86,10 @@ class _WorkState extends State<Work> {
                               backgroundColor: Color(0xff64FFDA),
                               child: SizedBox(),
                             ),
+                            CircleAvatar(
+                              backgroundColor: Color(0xff64FFDA),
+                              child: SizedBox(),
+                            ),
                           ],
                         ))
                       ],

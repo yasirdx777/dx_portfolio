@@ -270,7 +270,7 @@ class _HomePageState extends State<HomePage> {
                                 ),
                                 CustomText(
                                   text:
-                                      "I build things for the iOS and Android.",
+                                      "I'm a mobile application developer specialized in iOS development.",
                                   textsize: 56.0,
                                   color:
                                       const Color(0xffCCD6F6).withOpacity(0.6),
@@ -279,23 +279,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(
                                   height: size.height * .04,
                                 ),
-                                Wrap(
-                                  children: const [
-                                    Text(
-                                      "I'm a mobile application developer based in Suli, IQ specializing in \nbuilding (and occasionally designing) exceptional applications.",
-                                      style: TextStyle(
-                                        color: Colors.grey,
-                                        fontSize: 16.0,
-                                        letterSpacing: 2.75,
-                                        wordSpacing: 0.75,
-                                      ),
-                                    )
-                                  ],
-                                ),
-                                SizedBox(
-                                  height: size.height * .12,
-                                ),
-
+              
                                 //get in tuch text
                                 InkWell(
                                   onTap: () {

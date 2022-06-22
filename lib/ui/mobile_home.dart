@@ -118,32 +118,13 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.04,
               ),
               CustomText(
-                text: "I build things for the iOS and Android.",
+                text: "I'm a mobile application developer specialized in iOS development.",
                 textsize: 42.0,
                 color: const Color(0xffCCD6F6).withOpacity(0.6),
                 fontWeight: FontWeight.w700,
               ),
               SizedBox(
                 height: size.height * 0.04,
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                child: Wrap(
-                  children: const [
-                    Text(
-                      "I'm a mobile application developer based in Suli, IQ specializing in building (and occasionally designing) exceptional applications.",
-                      style: TextStyle(
-                        color: Colors.grey,
-                        fontSize: 15.0,
-                        letterSpacing: 2.75,
-                        wordSpacing: 0.75,
-                      ),
-                    )
-                  ],
-                ),
-              ),
-              SizedBox(
-                height: size.height * 0.06,
               ),
 
               InkWell(
