@@ -8,10 +8,12 @@ class MobileProject extends StatelessWidget {
   final IconData? onStoreTabIcon;
   final VoidCallback? onYouTubeTab;
   final IconData? onYouTubeTabIcon;
+  final double? onStoreTabIconBottomPadding;
 
   const MobileProject({
     required this.onStoreTab,
     this.onStoreTabIcon,
+    this.onStoreTabIconBottomPadding,
     this.onYouTubeTab,
     this.onYouTubeTabIcon,
     required this.image,
@@ -34,7 +36,7 @@ class MobileProject extends StatelessWidget {
 
           // Store Link
           Positioned(
-            bottom: 5,
+            bottom: onStoreTabIconBottomPadding ?? 5,
             right: 15,
             child: IconButton(
               icon: FaIcon(onStoreTabIcon ?? FontAwesomeIcons.appStore),

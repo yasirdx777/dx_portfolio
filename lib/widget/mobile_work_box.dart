@@ -30,7 +30,7 @@ class MobileWorkBox extends StatelessWidget {
           duration: "Contract: 2020 to 2021",
         ),
         WorkCustomData(
-          title: "iOS Applications Developer At Crocxi. Baghdad, IQ",
+          title: "iOS Developer At Croczi. Baghdad, IQ",
           subTitle:
               "Applied knowledge of iOS system frameworks to support offline tracking of medical delegates with 80% accuracy.\nTrained more than 4 fresh developers to apply best practices that helped boost the company's asset efficiency by 60%.\nCreated code template that increased company delivery by %30 with higher quality.\n",
           duration: "Contract: 2018 to 2019",

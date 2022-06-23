@@ -253,8 +253,8 @@ class _MobileHomeState extends State<MobileHome> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                technology(context, "Dart"),
                                 technology(context, "Swift"),
+                                technology(context, "Dart"),
                                 technology(context, "Kotlin"),
                                 technology(context, "Java"),
                               ],
@@ -483,10 +483,52 @@ class _MobileHomeState extends State<MobileHome> {
               MobileProject(
                 onStoreTab: () {
                   method.launchURL(
+                      "https://github.com/yasirdx777/DXVideoPlay");
+                },
+                onStoreTabIcon: FontAwesomeIcons.github,
+                onStoreTabIconBottomPadding: -10,
+                image: "assets/images/dx_video_play_preview_m.gif",
+              ),
+
+              SizedBox(
+                height: size.height * 0.07,
+              ),
+
+              MobileProject(
+                onStoreTab: () {
+                  method.launchURL(
                       "https://pub.dev/packages/square_progress_bar");
                 },
                 onStoreTabIcon: FontAwesomeIcons.github,
                 image: "assets/images/spb_m.gif",
+              ),
+
+              SizedBox(
+                height: size.height * 0.07,
+              ),
+
+              MobileProject(
+                onStoreTab: () {
+                  method.launchURL(
+                      "https://github.com/yasirdx777/DXTagsView");
+                },
+                onStoreTabIcon: FontAwesomeIcons.github,
+                onStoreTabIconBottomPadding: -10,
+                image: "assets/images/dx_tags_view_m.gif",
+              ),
+
+              SizedBox(
+                height: size.height * 0.07,
+              ),
+
+              MobileProject(
+                onStoreTab: () {
+                  method.launchURL(
+                      "https://github.com/yasirdx777/DXImageSliderView");
+                },
+                onStoreTabIcon: FontAwesomeIcons.github,
+                onStoreTabIconBottomPadding: -10,
+                image: "assets/images/dx_image_slider_view_m.gif",
               ),
 
               SizedBox(

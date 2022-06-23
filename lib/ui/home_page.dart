@@ -442,6 +442,18 @@ class _HomePageState extends State<HomePage> {
                                   ),
 
                                   FeatureProject(
+                                    imagePath: "assets/images/dx_video_play_preview.gif",
+                                    onStoreTab: () {
+                                      method.launchURL(
+                                          "https://github.com/yasirdx777/DXVideoPlay");
+                                    },
+                                    onStoreTabIcon: FontAwesomeIcons.github,
+                                    projectDesc:
+                                        "Video player for iOS\n\n-Swift\n-UIKit\n-SnapKit\n-Custom controller\n-Custom UIScrollView\n-AVLayer\n-AVPlayerItem\n-AVMutableAudioMix\n-SRT parser\n-SOLID principles",
+                                    projectTitle: "DXVideoPlay",
+                                  ),
+
+                                  FeatureProject(
                                     imagePath: "assets/images/spb.gif",
                                     onStoreTab: () {
                                       method.launchURL(
@@ -451,6 +463,30 @@ class _HomePageState extends State<HomePage> {
                                     projectDesc:
                                         "Progress bar package for Flutter\n\n-Custom painter\n-Tween animation",
                                     projectTitle: "square_progress_bar",
+                                  ),
+
+                                  FeatureProject(
+                                    imagePath: "assets/images/dx_tags_view.gif",
+                                    onStoreTab: () {
+                                      method.launchURL(
+                                          "https://github.com/yasirdx777/DXTagsView");
+                                    },
+                                    onStoreTabIcon: FontAwesomeIcons.github,
+                                    projectDesc:
+                                        "Tags view for iOS\n\n-Swift\n-UIKit\n-NSLayoutConstraint\n-Custom UICollectionViewFlowLayout\n-Fullly customizable tag view",
+                                    projectTitle: "DXTagsView",
+                                  ),
+
+                                  FeatureProject(
+                                    imagePath: "assets/images/dx_image_slider_view.gif",
+                                    onStoreTab: () {
+                                      method.launchURL(
+                                          "https://github.com/yasirdx777/DXImageSliderView");
+                                    },
+                                    onStoreTabIcon: FontAwesomeIcons.github,
+                                    projectDesc:
+                                        "Image slider view for iOS\n\n-Swift\n-UIKit\n-NSLayoutConstraint\n-Custom UICollectionViewFlowLayout\n-Customizable UIControl\n-UIGestureRecognizer\n-SOLID principles",
+                                    projectTitle: "DXImageSliderView",
                                   ),
 
                                   //other Projects
