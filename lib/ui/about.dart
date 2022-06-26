@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../widget/custom_text.dart';
 
-
 class About extends StatelessWidget {
   const About({Key? key}) : super(key: key);
 
@@ -81,7 +80,7 @@ class About extends StatelessWidget {
                   children: const [
                     CustomText(
                       text:
-                          "I have over five years of experience working in mobile application development. Currently, I work as the lead mobile application developer at iQ Group, where I lead a team of four developers, building unique applications that help people manage their internet subscriptions; I'm deeply passionate about creating trusted applications that make people's life easier and more efficient.\n\n",
+                          "I have over four years of experience working in mobile application development. Currently, I work as the lead mobile application developer at iQ Group, where I lead a team of four developers, building unique applications that help people manage their internet subscriptions; I'm deeply passionate about creating trusted applications that make people's life easier and more efficient.\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,

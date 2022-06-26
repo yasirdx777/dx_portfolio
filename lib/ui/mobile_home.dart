@@ -6,7 +6,6 @@ import '../widget/custom_text.dart';
 import '../widget/mobile_project.dart';
 import '../widget/mobile_work.dart';
 
-
 class MobileHome extends StatefulWidget {
   const MobileHome({Key? key}) : super(key: key);
 
@@ -118,7 +117,8 @@ class _MobileHomeState extends State<MobileHome> {
                 height: size.height * 0.04,
               ),
               CustomText(
-                text: "I'm a mobile application developer specialized in iOS development.",
+                text:
+                    "I'm a mobile application developer specialized in iOS development.",
                 textsize: 42.0,
                 color: const Color(0xffCCD6F6).withOpacity(0.6),
                 fontWeight: FontWeight.w700,
@@ -206,7 +206,7 @@ class _MobileHomeState extends State<MobileHome> {
                         children: const [
                           CustomText(
                             text:
-                                "I have over five years of experience working in mobile application development. Currently, I work as the lead mobile application developer at iQ Group, where I lead a team of four developers, building unique applications that help people manage their internet subscriptions; I'm deeply passionate about creating trusted applications that make people's life easier and more efficient.\n\n",
+                                "I have over four years of experience working in mobile application development. Currently, I work as the lead mobile application developer at iQ Group, where I lead a team of four developers, building unique applications that help people manage their internet subscriptions; I'm deeply passionate about creating trusted applications that make people's life easier and more efficient.\n\n",
                             textsize: 16.0,
                             color: Color(0xff828DAA),
                             fontWeight: FontWeight.w500,
@@ -482,8 +482,7 @@ class _MobileHomeState extends State<MobileHome> {
 
               MobileProject(
                 onStoreTab: () {
-                  method.launchURL(
-                      "https://github.com/yasirdx777/DXVideoPlay");
+                  method.launchURL("https://github.com/yasirdx777/DXVideoPlay");
                 },
                 onStoreTabIcon: FontAwesomeIcons.github,
                 onStoreTabIconBottomPadding: -10,
@@ -509,8 +508,7 @@ class _MobileHomeState extends State<MobileHome> {
 
               MobileProject(
                 onStoreTab: () {
-                  method.launchURL(
-                      "https://github.com/yasirdx777/DXTagsView");
+                  method.launchURL("https://github.com/yasirdx777/DXTagsView");
                 },
                 onStoreTabIcon: FontAwesomeIcons.github,
                 onStoreTabIconBottomPadding: -10,
@@ -636,7 +634,8 @@ class _MobileHomeState extends State<MobileHome> {
                       size: 15.0,
                     ),
                     onPressed: () {
-                      method.launchURL("https://stackoverflow.com/users/9005297/yasir-romaya");
+                      method.launchURL(
+                          "https://stackoverflow.com/users/9005297/yasir-romaya");
                     },
                   ),
                   IconButton(
