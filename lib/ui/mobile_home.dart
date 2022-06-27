@@ -118,7 +118,7 @@ class _MobileHomeState extends State<MobileHome> {
               ),
               CustomText(
                 text:
-                    "I'm a mobile application developer specialized in iOS development.",
+                    "I'm a mobile application developer specialed in iOS development.",
                 textsize: 42.0,
                 color: const Color(0xffCCD6F6).withOpacity(0.6),
                 fontWeight: FontWeight.w700,

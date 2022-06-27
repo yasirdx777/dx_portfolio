@@ -190,7 +190,8 @@ class _HomePageState extends State<HomePage> {
                           color: const Color(0xffffA8B2D1),
                           iconSize: 16.0,
                           onPressed: () {
-                            method.launchURL("https://stackoverflow.com/users/9005297/yasir-romaya");
+                            method.launchURL(
+                                "https://stackoverflow.com/users/9005297/yasir-romaya");
                           }),
                       IconButton(
                           icon: const FaIcon(FontAwesomeIcons.instagram),
@@ -270,7 +271,7 @@ class _HomePageState extends State<HomePage> {
                                 ),
                                 CustomText(
                                   text:
-                                      "I'm a mobile application developer specialized in iOS development.",
+                                      "I'm a mobile application developer specialed in iOS development.",
                                   textsize: 56.0,
                                   color:
                                       const Color(0xffCCD6F6).withOpacity(0.6),
@@ -279,7 +280,7 @@ class _HomePageState extends State<HomePage> {
                                 SizedBox(
                                   height: size.height * .04,
                                 ),
-              
+
                                 //get in tuch text
                                 InkWell(
                                   onTap: () {
@@ -442,7 +443,8 @@ class _HomePageState extends State<HomePage> {
                                   ),
 
                                   FeatureProject(
-                                    imagePath: "assets/images/dx_video_play_preview.gif",
+                                    imagePath:
+                                        "assets/images/dx_video_play_preview.gif",
                                     onStoreTab: () {
                                       method.launchURL(
                                           "https://github.com/yasirdx777/DXVideoPlay");
@@ -478,7 +480,8 @@ class _HomePageState extends State<HomePage> {
                                   ),
 
                                   FeatureProject(
-                                    imagePath: "assets/images/dx_image_slider_view.gif",
+                                    imagePath:
+                                        "assets/images/dx_image_slider_view.gif",
                                     onStoreTab: () {
                                       method.launchURL(
                                           "https://github.com/yasirdx777/DXImageSliderView");
